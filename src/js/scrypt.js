@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const page = window.location.pathname.replace("/", "") || "home";
+  const page = window.location.pathname.replace("/", "") || "index";
   try {
     // Charger dynamiquement le JS et le CSS correspondant à la page
     await import(`../css/${page}.css`);
