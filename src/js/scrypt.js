@@ -15,7 +15,12 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+let menu = document.querySelector("#menu");
 
+let navUn = document.querySelector(".nav-un");
+menu.addEventListener("click", () => {
+  navUn.classList.toggle("nav-active");
+});
 const swiper = new Swiper(".swiper1", {
   direction: "vertical", // Défilement vertical
   loop: true, // Recommence à zéro après la dernière slide
