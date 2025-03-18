@@ -772,7 +772,7 @@ label {
   }
   .lesphotos {
     width: 99%;
-    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
   }
   .prop {
     width: 96%;
